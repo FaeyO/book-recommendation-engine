@@ -6,7 +6,7 @@ with open("README.md","r", encoding="utf-8") as f:
 REPO_NAME = "Books-Recommender-System-Using-Machine-Learning"
 AUTHOR_USER_NAME = "FaeyO"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ['streamlit', 'numpy']
+LIST_OF_REQUIREMENTS = ['streamlit', 'numpy','scikit-learn']
 
 
 setup(
@@ -20,6 +20,6 @@ setup(
     author_email="foyinbo250@gmail.com",
     packages=[SRC_REPO],
     license="MIT",
-    python_requires=">=3.10.0",
+    python_requires=">=3.9.16",
     install_requires=LIST_OF_REQUIREMENTS
 )
